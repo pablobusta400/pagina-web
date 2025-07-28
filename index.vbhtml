@@ -1,0 +1,110 @@
+﻿@Code
+    Layout = "~/_SiteLayout.vbhtml"
+    PageData("Title") = "Bienvenido a mi sitio web."
+End Code
+<p>
+    ASP.NET Web Pages facilita la compilación de aplicaciones para Internet basadas en .NET de gran eficacia.
+</p><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es una Página Web?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #35424a;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #ffffff;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¿Qué es una Página Web?</h1>
+</header>
+
+<nav>
+    <a href="#definicion">Definición</a>
+    <a href="#componentes">Componentes</a>
+    <a href="#tipos">Tipos de Páginas Web</a>
+    <a href="#conclusion">Conclusión</a>
+</nav>
+
+<div class="container">
+    <section id="definicion">
+        <h2>Definición</h2>
+        <p>
+            Una página web es un documento digital accesible a través de internet que puede contener texto, imágenes, videos, y otros elementos multimedia. 
+            Se diseña utilizando un lenguaje de marcado, siendo el HTML (HyperText Markup Language) el más común.
+        </p>
+    </section>
+
+    <section id="componentes">
+        <h2>Componentes de una Página Web</h2>
+        <ul>
+            <li><strong>HTML:</strong> Lenguaje de marcado que estructura el contenido.</li>
+            <li><strong>CSS:</strong> Lenguaje de estilo que se encarga de la presentación visual.</li>
+            <li><strong>JavaScript:</strong> Lenguaje de programación que permite interactividad y dinamismo en la página.</li>
+            <li><strong>Servidor web:</strong> Donde se aloja la página y se encarga de enviarla a los navegadores.</li>
+        </ul>
+    </section>
+
+    <section id="tipos">
+        <h2>Tipos de Páginas Web</h2>
+        <ul>
+            <li><strong>Páginas Estáticas:</strong> Contenido fijo, que no cambia a menos que sea editado manualmente.</li>
+            <li><strong>Páginas Dinámicas:</strong> Contenido que se puede modificar en tiempo real y puede variar según el usuario.</li>
+            <li><strong>Páginas de Aterrizaje:</strong> Diseñadas para llevar a los visitantes a realizar una acción específica.</li>
+            <li><strong>Blogs:</strong> Espacios de contenido actualizado regularmente, con publicaciones de diversos temas.</li>
+            <li><strong>Tiendas en Línea:</strong> Páginas dedicadas al comercio electrónico.</li>
+        </ul>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusión</h2>
+        <p>
+            Entender qué es una página web y cómo funciona es fundamental en el mundo digital actual. 
+            Desde simples blogs hasta complejas plataformas de comercio electrónico, las páginas web son herramientas cruciales de comunicación e interactividad.
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2023 - TuNombre. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
